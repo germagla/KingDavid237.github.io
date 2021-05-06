@@ -1,0 +1,364 @@
+*{
+  position: relative;
+}
+.techcontainer{
+  width: 100%;
+  height: 100vh;
+  /*background-image: linear-gradient(to bottom, rgba(0.0, 0.0, 0.0, 0.7), rgba(0.0, 0.0, 0.0, 0.7)),
+    url('../images/background.png');*/
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+.card{
+  width: 100px;
+  height: 130px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 25px;
+  background-image: url('../images/java.png');
+  background-position: center;
+  background-size: contain, cover; 
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: transform 0.5s;
+}
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: translateY(-10px);
+}
+.card1 {
+  background-image: url('../images/030-html-5.png'); 
+}
+.card2 {
+  background-image: url('../images/031-css.png'); 
+}
+.card3 {
+  background-image: url('../images/029-javascript.png'); 
+}
+.card4 {
+  background-image: url('../images/005-python.png'); 
+}
+.card5 {
+  background-image: url('../images/006-react.png'); 
+}
+.card6 {
+  background-image: url('../images/032-nodejs.png'); 
+}
+.card7 {
+  background-image: url('../images/003-java.png'); 
+}
+.card8 {
+  background-image: url('../images/027-php.png'); 
+}
+.card9 {
+  background-image: url('../images/file_type_angular_icon_130754.png');
+}
+.card10 {
+  background-image: url('../images/016-c-1.png'); 
+}
+.card11 {
+  background-image: url('../images/018-c.png'); 
+}
+.card12 {
+  background-image: url('../images/021-mysql.png'); 
+}
+.card13 {
+  background-image: url('../images/ruby.png'); 
+}
+.card14 {
+  background-image: url('../images/kotlin.png'); 
+}
+.card15 {
+  background-image: url('../images/kali-linux.png'); 
+}
+.card16 {
+  background-image: url('../images/swift.png'); 
+}
+.card17 {
+  background-image: url('../images/flutter_icon_130936.png'); 
+}
+.card18 {
+  background-image: url('../images/photoshop.png'); 
+}
+.card19 {
+  background-image: url('../images/illustrator.png'); 
+}
+.card20 {
+  background-image: url('../images/after-effects.png'); 
+}
+.card21 {
+  background-image: url('../images/lightroom.png'); 
+}
+.card22 {
+  background-image: url('../images/experience.png'); 
+}
+.card23 {
+  background-image: url('../images/figma_logo_icon_147289.png'); 
+}
+
+.typewriter h1{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+div .b {
+  text-align: left;
+}
+div .icon-center
+{
+    align-items: center;
+    align-content: center;
+    /*display: flex;*/
+}
+
+.services
+{
+  background: #1f1f1f;
+  padding: 100px;
+  text-align: center;
+}
+
+.services .container
+{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+margin-top: 60px;
+}
+
+.services .container .serviceBx
+{
+  position: relative;
+  background: #fff;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.services .container .serviceBx img
+{
+  max-width: 100px;
+}
+.services .container .serviceBx h2
+{
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.technology
+{
+  background: #ffffff;
+  width: 100%;
+  padding: 100px;
+  padding-top: 300px; 
+  margin-top: -300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.technology .contentBx
+{
+  max-width: 800px;
+}
+.technology .imgBx
+{
+  max-width: 250px;
+}
+.technology .imgBx img
+{
+  max-width: 100%; 
+}
+.client 
+{
+  /*background: #162c3b;*/
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0.0, 0.0, 0.0, 0.9)),
+    url('../images/coderoom.jpg') !important;  
+  background-position: center;
+  background-size: cover; 
+  background-attachment: fixed;
+  padding: 100px;
+  text-align: center;
+}
+.client .imgBx
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.client .imgBx img
+{
+  max-width: 200px;
+  margin: 20px;
+  opacity: 0.25;
+  cursor: pointer;
+}
+.client .imgBx img:hover
+{
+  opacity: 1;
+}
+.testimonials
+{
+  position: relative;
+  padding: 100px;
+  background: #ffffff;
+  text-align: center;
+}
+.testimonials .container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+  flex-wrap: wrap; 
+}
+.testimonials .container .contentBx 
+{
+background: #fff;
+padding: 60px 50px;
+width: 550px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: left;
+}
+.testimonials .container .contentBx p
+{
+  font-style: italic;
+}
+.testimonials .container .contentBx h3
+{
+ width: 100%;
+ text-align: end;
+ font-weight: 500;
+ color: #3f8ffc;
+}
+/*SERVICES AND TECH CONTAINER FOR PHONE*/
+@media (max-width: 991px)
+{
+  .services
+  {
+    padding: 50px !important;
+  }
+  .services .container
+  {
+    justify-content: center !important;
+    margin-top: 20px !important;
+  }
+  .services .container .servicesBx
+  {
+    margin: 20px !important;
+    width: 300px !important;
+    height: 350px !important; 
+  }
+  .technology
+  {
+    padding: 50px !important;
+    padding-top: 300px !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+  }
+  .technology .imgBx
+  {
+    margin-top: 40px !important;
+    max-width: 250px !important;
+  }
+  .client
+  {
+    padding: 50px !important;
+  }
+  .client .imgBx
+  {
+    justify-content: center !important;
+  }
+  .testimonials
+  {
+    padding: 50px !important;
+  }
+   .testimonials .contentBx
+   {
+    padding: 60px 40px !important;
+    max-width: 550px !important;
+    margin-bottom: 40px !important;
+   }
+   .testimonials .contentBx:last-child
+   {
+    margin-bottom: 0px !important;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
